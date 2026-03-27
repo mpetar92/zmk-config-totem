@@ -29,10 +29,10 @@
 
         VIM {
             bindings = <
-        &kp ESCAPE  &trans  &trans  &trans  &trans    &trans          &trans    &trans        &trans     &trans
-        &kp TAB     &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &trans      &trans  &trans  &trans  &trans    &kp LA(LEFT)    &trans    &trans        &trans     &trans  &trans
-                            &trans  &trans  &trans    &trans          &trans    &trans
+        &kp ESCAPE  &trans  &trans  &trans       &trans    &trans          &trans    &trans        &trans     &trans
+        &kp TAB     &trans  &trans  &trans       &trans    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans      &trans  &trans  &trans       &trans    &kp LA(LEFT)    &trans    &trans        &trans     &trans  &trans
+                            &none   &lt 1 SPACE  &none     &trans          &trans    &trans
             >;
         };
 
@@ -41,7 +41,7 @@
                    &kp LA(BACKSPACE)  &kp BACKSPACE  &trans  &kp DELETE     &kp LA(DELETE)        &kp N5      &kp N6           &kp N7       &kp N8    &kp N9
                    &trans             &trans         &trans  &trans         &kp LA(RIGHT)         &kp N0      &kp N1           &kp N2       &kp N3    &kp N4
 &kp LG(BACKSPACE)  &kp LG(UP_ARROW)   &kp LG(LEFT)   &trans  &kp LG(RIGHT)  &kp LG(DOWN_ARROW)    &kp PERIOD  &kp PLUS         &kp MINUS    &kp STAR  &kp FSLH  &kp CARET
-                                                     &trans  &trans         &trans                &kp EQUAL   &kp RIGHT_SHIFT  &kp PERCENT
+                                                     &trans  &trans         &none                 &kp EQUAL   &kp RIGHT_SHIFT  &kp PERCENT
             >;
         };
 
